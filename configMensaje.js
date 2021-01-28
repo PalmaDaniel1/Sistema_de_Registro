@@ -33,20 +33,18 @@ const mailOptions = {
          font-family: sans-serif;">
              
              <p style="margin: 30px; font-size: 15px;">
-             Para finalizar el registro, haga clic en el botón de abajo para verificar su
-             cuenta.<br>
+             Para finalizar el registro, por favor ingrese en número enviado despues
+             de haber iniciado seción<br>
              </p>
          <br>
 
          <div style="width: 100%; text-align: center;">
              <a style="text-decoration: none; border-radius: 5px; padding: 
-             11px 23px; color: white; background-color: #3498db;" href="
-             http://localhost:4200/Verificar">Validar Correo</a>
+             11px 23px; color: white; background-color: #3498db;">${formulario.aleatorio}</a>
          </div>
          <br>
          <p style="margin: 30px; font-size: 15px;">
-             Una vez verificado, podra inresar a la plataforma con su usuario y contraseña
-             en el apartado de Logout.
+             Una vez verificado, podra ingresar a la plataforma de la aplicación.
              Esperamos brindarle la megor experiencia en su trabajo.
              <br>
          </p>
